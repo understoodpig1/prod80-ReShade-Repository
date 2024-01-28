@@ -36,19 +36,7 @@
 namespace pd80_conbrisat
 {
     //// UI ELEMENTS ////////////////////////////////////////////////////////////////
-    uniform bool enable_dither <
-        ui_label = "Enable Dithering";
-        ui_tooltip = "Enable Dithering";
-        ui_category = "Global";
-        > = true;
-    uniform float dither_strength <
-        ui_type = "slider";
-        ui_label = "Dither Strength";
-        ui_tooltip = "Dither Strength";
-        ui_category = "Global";
-        ui_min = 0.0f;
-        ui_max = 10.0f;
-        > = 1.0;
+  
     uniform float tint <
         ui_label = "Tint";
         ui_tooltip = "Tint";
